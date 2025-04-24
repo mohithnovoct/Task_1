@@ -27,9 +27,7 @@ The goal of this task is to clean and preprocess the Titanic dataset to prepare 
 
 #### 1. **Exploratory Data Analysis**
 - Checked column data types, null values, and basic statistics using:
-  ```python
   df.info(), df.describe(), df.isnull().sum()
-  ```
 
 #### 2. **Handling Missing Values**
 - `Age`: Imputed with **median**
